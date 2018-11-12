@@ -1,12 +1,12 @@
 {
-  "name": "immutable-sorted",
-  "version": "0.2.6",
+  "name": "@binaris/immutable-sorted",
+  "version": "0.2.7-binaris.3",
   "description": "Immutable Sorted Data Collections",
   "license": "MIT",
-  "homepage": "https://applitopia.github.io/immutable-sorted",
+  "homepage": "https://github.com/binaris/immutable-sorted",
   "repository": {
     "type": "git",
-    "url": "git://github.com/applitopia/immutable-sorted.git"
+    "url": "git://github.com/binaris/immutable-sorted.git"
   },
   "bugs": {
     "url": "https://github.com/applitopia/immutable-sorted/issues"
@@ -80,7 +80,6 @@
     "jasmine-check": "0.1.5",
     "jest": "21.2.1",
     "marked": "0.3.6",
-    "microtime": "2.1.6",
     "mkdirp": "0.5.1",
     "npm-run-all": "4.1.1",
     "prettier": "1.7.4",

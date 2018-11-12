@@ -2465,7 +2465,7 @@ export module SortedMap {
      * Seq { "R", "Q", "P", "O", "N", "M", "L" }
      * ```
      */
-    from(value: T, backwards?: boolean): Seq<T>;
+    from(value: T, backwards?: boolean): Seq<T, T>;
   }
 
   /**
@@ -3128,7 +3128,7 @@ export module SortedMap {
 
     // Reading values
 
-    has(key: string): key is keyof TProps;
+    has(key: string): key is keyof TProps & string;
 
     /**
      * Returns the value associated with the provided key, which may be the
